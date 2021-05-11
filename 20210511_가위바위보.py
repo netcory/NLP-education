@@ -1,30 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-a = [1,2,3,4,5]
-sum(a0)
-
-
-# In[2]:
-
-
-sum(a)
-
-
-# In[3]:
-
-
-sum
-
-
-# In[4]:
-
-
-sum(a)
-
 
 # In[6]:
 
