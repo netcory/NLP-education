@@ -52,5 +52,5 @@ while a == 1 or a == 2 or a == 3:
 
     total += 1
     
-print("게임종료(전체: {}, 승리: {}, 무승부: {}, 패배: {} )".format(total, win, draw, lose))
+print("게임종료(전체: {}, 승리: {}, 무승부: {}, 패배: {} )".format(total-1, win, draw, lose))
 
