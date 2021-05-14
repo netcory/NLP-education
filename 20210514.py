@@ -860,5 +860,28 @@ fibonacci2(7)
 # In[ ]:
 
 
+a = ['1']
+count = 1
+n = int(input("몇 번째 수열을 구할까요?: "))
+j = 1
+
+while j < n:
+    b = ''
+    c = ''
+    for i in range(len(a[-1])):
+        if i == len(a[-1]) - 1:
+            c = a[-1][i] + str(count)
+            count = 1
+        elif a[-1][i] == a[-1][i + 1]:
+            count += 1
+        elif a[-1][i] != a[-1][i + 1]:
+            b += a[-1][i] + str(count)
+            count = 1
+    j += 1
+    a.append(b + c)
+print(a)
+print("{}번째 수열은".format(n), int(a[-1]), "입니다.")
+
+
 
 
